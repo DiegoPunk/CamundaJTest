@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/process")
 public class ProcessController {
 
-  // this is a test
   private static final Logger LOG = LoggerFactory.getLogger(ProcessController.class);
   private final ZeebeClient zeebe;
 
